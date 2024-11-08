@@ -1,0 +1,37 @@
+/*
+  Theme Name: Champions Theme
+  Author: Divaldo Barros
+  Description: Tema para desafio WYChallenge
+  Version: 1.0
+*/
+
+.hero {
+  background: url('path-to-image.jpg') center/cover no-repeat;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.5rem;
+}
+.hero-cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.footer-nav a, .footer-social a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
