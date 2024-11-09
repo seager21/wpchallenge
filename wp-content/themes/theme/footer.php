@@ -1,19 +1,20 @@
-</main> <!-- Close site-main -->
-<footer class="site-footer bg-light py-4">
-    <div class="container text-center">
-        <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved.</p>
-        <nav>
-            <?php
-            wp_nav_menu(array(
-                'theme_location' => 'footer-menu',
-                'container'      => false,
-                'menu_class'     => 'footer-nav',
-                'fallback_cb'    => false
-            ));
-            ?>
+<?php
+// footer.php
+?>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>&copy; <?php echo date("Y"); ?> Champions. All rights reserved.</p>
+        <nav class="footer-navigation">
+            <ul class="footer-menu">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
         </nav>
     </div>
 </footer>
+
 <?php wp_footer(); ?>
 </body>
 </html>

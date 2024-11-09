@@ -1,6 +1,7 @@
 <section class="hero">
     <div class="hero-background">
         <h1><?php the_title(); ?></h1>
+        <h1><?php the_title(); ?></h1>
         <p>Your site’s main value proposition goes here.</p>
         <a href="#" class="hero-cta">Get Started</a>
     </div>
